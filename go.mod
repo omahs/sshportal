@@ -5,10 +5,10 @@ require (
 	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d
 	github.com/cpuguy83/go-md2man/v2 v2.0.0 // indirect
 	github.com/creack/pty v1.1.11 // indirect
-	github.com/docker/docker v20.10.12+incompatible
+	github.com/docker/docker v20.10.18+incompatible+incompatible
 	github.com/dustin/go-humanize v1.0.0
-	github.com/gliderlabs/ssh v0.3.3
-	github.com/go-gormigrate/gormigrate/v2 v2.0.0
+	github.com/gliderlabs/ssh v0.3.5
+	github.com/go-gormigrate/gormigrate/v2 v2.0.2
 	github.com/kr/pty v1.1.8
 	github.com/mattn/go-colorable v0.1.8 // indirect
 	github.com/mattn/go-runewidth v0.0.12 // indirect
@@ -22,15 +22,15 @@ require (
 	github.com/sabban/bastion v0.0.0-20180110125408-b9d3c9b1f4d3
 	github.com/smartystreets/goconvey v1.7.2
 	github.com/tailscale/depaware v0.0.0-20210622194025-720c4b409502
-	github.com/urfave/cli v1.22.5
-	golang.org/x/crypto v0.0.0-20220208050332-20e1d8d225ab
+	github.com/urfave/cli v1.22.10
+	golang.org/x/crypto 4ba4fb4dd9e7
 	golang.org/x/term v0.0.0-20210422114643-f5beecf764ed // indirect
-	golang.org/x/tools v0.1.10
-	gorm.io/driver/mysql v1.2.3
-	gorm.io/driver/postgres v1.2.3
-	gorm.io/driver/sqlite v1.2.6
-	gorm.io/gorm v1.22.5
+	golang.org/x/tools v0.1.12
+	gorm.io/driver/mysql v1.3.6
+	gorm.io/driver/postgres v1.3.10
+	gorm.io/driver/sqlite v1.3.6
+	gorm.io/gorm v1.23.10
 	moul.io/srand v1.6.1
 )
 
-go 1.14
+go 1.19
